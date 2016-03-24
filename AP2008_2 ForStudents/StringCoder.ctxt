@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=master
+comment0.target=StringCoder(java.lang.String)
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ StringCoder\n
+comment1.params=parts
+comment1.target=java.lang.String\ decodeString(java.util.ArrayList)
+comment1.text=\n\ @param\ \ parts\ an\ ArrayList\ of\ string\ parts\ that\ are\ valid\ in\ the\ master\ string\n\ \ \ \ \ \ \ \ \ Precondition\:\ parts.size()>0\n\ @return\ the\ string\ obtained\ by\ concatenating\ the\ parts\ of\ master\ string\n
+comment2.params=str
+comment2.target=StringPart\ findPart(java.lang.String)
+comment2.text=\ @param\ str\ the\ string\ to\ encode\ using\ the\ master\ string;\n\ \ \ \ \ \ \ \ \ Precondition\:\ all\ of\ the\ characters\ in\ str\ appear\ in\ that\ master\ string;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ str.length()>0\n\ \ @return\ a\ StringPart\ in\ the\ master\ string\ that\ matches\ the\ beginning\ of\ str.\n\ \ \ \ \ \ \ \ \ \ The\ returned\ string\ part\ has\ length\ at\ least\ 1.\n
+comment3.params=word
+comment3.target=java.util.ArrayList\ encodeString(java.lang.String)
+comment3.text=\ @param\ word\ the\ string\ to\ be\ encoded\n\ \ \ \ \ \ \ \ \ Precondition\:\ all\ of\ the\ characters\ in\ word\ appear\ in\ the\ master\ string;\n\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ word.length()>0\n\ \ @return\ an\ ArrayList\ of\ string\ parts\ of\ the\ master\ string\ that\ can\ be\ combined\n\ \ \ \ \ \ \ \ \ \ to\ create\ word.\n
+numComments=4
